@@ -1,6 +1,6 @@
-##Init barbone 1 TOK  
+## Init barbone 1 TOK  
 
-###On production:  
+### On production:  
 
 **Install PM2 globally**  
 
@@ -17,7 +17,7 @@
 **stop npm PM2 instance**  
 `pm2 stop npm`
 
-###On dev environment:  
+### On dev environment:  
 
 **Install node packages**  
 `nmp install`
@@ -26,7 +26,7 @@
 
 `npm run dev`
 
-###curl examples  
+### curl examples  
 
 ```bash
 curl -X POST -H "Content-Type:application/json" http://localhost:3001/messages -d '{"text":"Hi again, World"}'
@@ -38,6 +38,6 @@ curl --location --request GET 'http://localhost:3001/session/geterror' --header 
 curl --location --request GET 'http://localhost:3001/session/geterror'
 ```
 
-###Ref  
+### Ref  
 - `pm2-use-npm-to-start-your-app`
 - `node-express-server-rest-api`
